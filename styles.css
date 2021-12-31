@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+.left-column{
+    grid-area: left-column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+h1{font-size: 56px;}
+h2{font-size: 36px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 20px;}
+h{font-size: 16px;}
+#depression_pic{
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    border: 2px solid var(--google-yellow-100);
+}
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
